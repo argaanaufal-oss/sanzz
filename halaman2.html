@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>portofolio</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(0, 0, 70), rgb(0, 0, 50), rgb(0, 0, 0));
+      background-size: 400% 400%;
+      animation: gerakBackground 10s ease infinite;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    @keyframes gerakBackground {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 36px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+<body>
+  
+  <center
+  
+  <h2>WELCOME TO MY PORTOFOLIO</h2>
+<p style="text-align: center;">
+  Hello! coding itu bisa membuat web dan apk yang sangat penting,<br>
+  dan coding itu lumayan susah bagi yang pemula!
+</p>
+
+<button onclick="pindahHalaman()">klik untuk mengetahui saya</button>
+
+<script>
+  function pindahHalaman() {
+    window.location.href =
+    "halaman3.html";
+  }
+</script>
+  
+</body>
+</html>
